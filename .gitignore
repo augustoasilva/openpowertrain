@@ -1,0 +1,74 @@
+# --- Go ---
+# Compiled binaries (adjust/add names as CLI/API binaries get built)
+/bin/
+/dist/
+opw
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries and coverage
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Go build/profiling artifacts
+*.prof
+
+# Dependency directories (uncomment if you switch to `go mod vendor`)
+# vendor/
+
+# Go workspace file (only relevant if using multi-module workspaces)
+go.work
+go.work.sum
+
+# --- Fyne ---
+# fyne-cross build output (Docker-based cross-compilation)
+/fyne-cross/
+
+# --- JetBrains (GoLand, IntelliJ, etc.) ---
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- Environment / local config ---
+.env
+.env.local
+.env.*.local
+*.local.yaml
+*.local.yml
+
+# --- Logs and temp files ---
+*.log
+tmp/
+*.tmp
+
+# --- Editor swap files ---
+*.swp
+*.swo
+*~
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Linux ---
+*~
+.directory
+.Trash-*
